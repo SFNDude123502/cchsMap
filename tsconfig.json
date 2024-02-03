@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {    
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "lib": ["ES2016"],
+        "target" : "ESNext",
+        "resolveJsonModule": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+    },
+}

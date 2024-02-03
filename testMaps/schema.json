@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "node.schema.json",
+    "title": "Node",
+    "description": "A location node for mapping",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "The unique identifier for a node",
+            "type": "string"
+        },
+        "near": {
+            "description": "The list of nodes that the current node is connected to",
+            "type": "object[]"
+        },
+        "dist":{
+            "description":"The list indicating distances current node and each node in near",
+            "type": "number[]"
+        },
+        "priv":{
+            "description":"Property describing if the node is locked/off-limits",
+            "type": "boolean"
+        }
+    }
+}
